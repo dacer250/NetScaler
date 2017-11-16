@@ -16,4 +16,6 @@ https://docs.citrix.com/en-us/netscaler/11.html
   2. 建立Virtual Server . 这个 Virtual Server 下面就有这三个service,通过配置权重来做负载均衡.
   
   由此可见. 一个VServer是 相同功能的Service的集合. 这个集合内部按照算法做负载均衡.
+  
+  3. 一个NC,是可以有多个Vserver的.由此做到对不同应用的分别的负载均衡
 
